@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,
+input {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+}
+.mt_20 {
+    margin-top: 20px;
+}
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mt_10 {
+    margin-top: 10px;
+}
+.mb_10 {
+    margin-bottom: 10px;
+}
+.primary_color {
+    color: #323cf2;
+}
+
+body {
+    background: #e7e7e7;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+    background: #e7e7e7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #a1a1a1;
+}
+.nav {
+    background: #323cf2;
+}
+.nav ul {
+    text-align: center;
+}
+.nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav ul li a {
+    color: #fff;
+}
+.main {
+    padding: 20px;
+}
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+table {
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+th,
+td {
+    padding: 10px;
+}
+
+table.t1,
+table.t1 tr,
+table.t1 th,
+table.t1 td {
+    border: 1px solid #bababa;
+    border-collapse: collapse;
+}
+
+table.t2,
+table.t2 tr,
+table.t2 th,
+table.t2 td {
+    border: 0;
+    border-collapse: collapse;
+}
+
+table.t2 td:first-child {
+    width: 200px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 6px);
+    height: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+input[type="submit"] {
+    padding: 10px 30px;
+    background: #323cf2;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.error {
+    padding: 10px;
+    background: #f7acac;
+    color: #ae1717;
+    font-weight: 700;
+}
+
+.success {
+    padding: 20px;
+    background: #c5f8c5;
+    color: #115e15;
+    font-weight: 700;
+}
